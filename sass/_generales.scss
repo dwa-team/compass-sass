@@ -7,3 +7,13 @@
     font-family: 'HeroRegular';
   }
   
+
+  .imageAgumon {
+    @extend .sprite_1-agumon;
+    background-color: black;
+  }
+
+  .imageGreymon {
+    @extend .sprite_1-greymon;
+    background-color: blue;
+  }

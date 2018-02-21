@@ -641,6 +641,54 @@ table {
 /*------------------------- Variables --------------------*/
 /*------------------------- Amor y amistad --------------------*/
 /*------------------------- Amor y amistad --------------------*/
+/* line 88, sprites/sprite_1/*.png */
+.sprite_1-sprite, .sprite_1-agumon, .imageAgumon, .sprite_1-dwa-logo-over, .sprite_1-dwa-logo, .sprite_1-favicon, .sprite_1-greymon, .imageGreymon, .sprite_1-gulimon {
+  background-image: url('../img/sprites/sprite_1-se3d16d916b.png');
+  background-repeat: no-repeat;
+}
+
+/* line 84, ../../../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.sprite_1-agumon, .imageAgumon {
+  background-position: 0 -465px;
+  height: 387px;
+  width: 272px;
+}
+
+/* line 84, ../../../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.sprite_1-dwa-logo-over {
+  background-position: 0 0;
+  height: 100px;
+  width: 100px;
+}
+
+/* line 84, ../../../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.sprite_1-dwa-logo {
+  background-position: -100px 0;
+  height: 100px;
+  width: 100px;
+}
+
+/* line 84, ../../../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.sprite_1-favicon {
+  background-position: -333px -100px;
+  height: 16px;
+  width: 16px;
+}
+
+/* line 84, ../../../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.sprite_1-greymon, .imageGreymon {
+  background-position: 0 -852px;
+  height: 391px;
+  width: 350px;
+}
+
+/* line 84, ../../../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.sprite_1-gulimon {
+  background-position: 0 -100px;
+  height: 365px;
+  width: 333px;
+}
+
 /*------------------------- Internal features --------------------*/
 /* line 3, ../sass/com/general/_utilidades.scss */
 .fontSize1 {
@@ -1392,6 +1440,16 @@ main.mainCont {
   position: relative;
   overflow: hidden;
   font-family: 'HeroRegular';
+}
+
+/* line 11, ../sass/_generales.scss */
+.imageAgumon {
+  background-color: black;
+}
+
+/* line 16, ../sass/_generales.scss */
+.imageGreymon {
+  background-color: blue;
 }
 
 @media screen and (max-width: 440px) {
