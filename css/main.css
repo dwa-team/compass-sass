@@ -1433,6 +1433,44 @@ ul.listaCont li {
   color: blue;
 }
 
+/* line 2, ../sass/footer/_footer.scss */
+footer.footerCont {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background: #efefef;
+  width: 100%;
+}
+/* line 8, ../sass/footer/_footer.scss */
+footer.footerCont ul {
+  list-style: none;
+  display: block;
+  width: 80%;
+  margin: 0 auto;
+  max-width: 600px;
+  margin: 20px auto 0;
+  text-align: center;
+  padding: 0;
+}
+/* line 18, ../sass/footer/_footer.scss */
+footer.footerCont ul li {
+  height: 60px;
+  width: 60px;
+  border-radius: 11px;
+  background: blue;
+  display: inline-block;
+  margin: 10px;
+}
+/* line 19, ../sass/footer/_footer.scss */
+footer.footerCont ul li .othersTxt {
+  color: white;
+}
+/* line 22, ../sass/footer/_footer.scss */
+footer.footerCont ul li:hover {
+  background: #060693;
+  cursor: pointer;
+}
+
 /* line 2, ../sass/_generales.scss */
 main.mainCont {
   padding: 0;
@@ -1456,5 +1494,14 @@ main.mainCont {
   /* line 1, ../sass/header/_media_440.scss */
   header.headerCont h1 {
     text-align: center;
+  }
+
+  /* line 3, ../sass/footer/_media_440.scss */
+  footer.footerCont ul li {
+    background: red;
+  }
+  /* line 6, ../sass/footer/_media_440.scss */
+  footer.footerCont ul li:nth-child(1) {
+    width: 100%;
   }
 }
