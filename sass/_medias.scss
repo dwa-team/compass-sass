@@ -16,11 +16,12 @@
 	// @import "popups/media_767";
 }
 @media screen and (max-width: 560px ) {
-	// @import "popups/media_560";
+	@import "header/media_560";	
+	@import "footer/media_560";
+	@import "home/home_560";
 }
 @media screen and (max-width: 440px ) {
-	@import "header/media_440";	
-	@import "footer/media_440";	
+	// @import "popups/media_440";	
 }
 
 

@@ -1433,6 +1433,46 @@ ul.listaCont li {
   color: blue;
 }
 
+/* line 2, ../sass/home/_home.scss */
+.imageAgumon {
+  background-color: transparent;
+}
+
+/* line 7, ../sass/home/_home.scss */
+.imageGreymon {
+  background-color: blue;
+}
+
+/* line 12, ../sass/home/_home.scss */
+.leftCont {
+  width: 40%;
+  display: inline-block;
+  vertical-align: top;
+  z-index: 2;
+  position: relative;
+}
+
+/* line 20, ../sass/home/_home.scss */
+.rightCont {
+  width: 58%;
+  display: inline-block;
+  background: grey;
+  vertical-align: top;
+}
+/* line 25, ../sass/home/_home.scss */
+.rightCont ul {
+  list-style: none;
+  text-align: center;
+}
+/* line 28, ../sass/home/_home.scss */
+.rightCont ul li {
+  display: inline-block;
+  vertical-align: top;
+  width: 140px;
+  background: red;
+  margin: 13px;
+}
+
 /* line 2, ../sass/footer/_footer.scss */
 footer.footerCont {
   position: fixed;
@@ -1452,8 +1492,22 @@ footer.footerCont ul {
   text-align: center;
   padding: 0;
 }
-/* line 18, ../sass/footer/_footer.scss */
+/* line 17, ../sass/footer/_footer.scss */
+footer.footerCont ul li:nth-child(1) {
+  background: transparent;
+}
+/* line 19, ../sass/footer/_footer.scss */
+footer.footerCont ul li:nth-child(1) div p {
+  color: black;
+}
+/* line 22, ../sass/footer/_footer.scss */
+footer.footerCont ul li:nth-child(1):hover {
+  background: transparent;
+  cursor: auto;
+}
+/* line 27, ../sass/footer/_footer.scss */
 footer.footerCont ul li {
+  vertical-align: top;
   height: 60px;
   width: 60px;
   border-radius: 11px;
@@ -1461,11 +1515,11 @@ footer.footerCont ul li {
   display: inline-block;
   margin: 10px;
 }
-/* line 19, ../sass/footer/_footer.scss */
+/* line 28, ../sass/footer/_footer.scss */
 footer.footerCont ul li .othersTxt {
   color: white;
 }
-/* line 22, ../sass/footer/_footer.scss */
+/* line 31, ../sass/footer/_footer.scss */
 footer.footerCont ul li:hover {
   background: #060693;
   cursor: pointer;
@@ -1480,28 +1534,37 @@ main.mainCont {
   font-family: 'HeroRegular';
 }
 
-/* line 11, ../sass/_generales.scss */
-.imageAgumon {
-  background-color: black;
+/* line 10, ../sass/_generales.scss */
+.bodyCont {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
 }
 
-/* line 16, ../sass/_generales.scss */
-.imageGreymon {
-  background-color: blue;
-}
-
-@media screen and (max-width: 440px) {
-  /* line 1, ../sass/header/_media_440.scss */
+@media screen and (max-width: 560px) {
+  /* line 1, ../sass/header/_media_560.scss */
   header.headerCont h1 {
     text-align: center;
   }
 
-  /* line 3, ../sass/footer/_media_440.scss */
-  footer.footerCont ul li {
-    background: red;
+  /* line 1, ../sass/footer/_media_560.scss */
+  footer.footerCont {
+    position: relative;
   }
-  /* line 6, ../sass/footer/_media_440.scss */
+  /* line 4, ../sass/footer/_media_560.scss */
   footer.footerCont ul li:nth-child(1) {
     width: 100%;
+  }
+
+  /* line 1, ../sass/home/_home_560.scss */
+  .leftCont, .rightCont {
+    width: 100%;
+    display: block;
+  }
+
+  /* line 6, ../sass/home/_home_560.scss */
+  .leftCont {
+    max-width: 272px;
+    margin: 0 auto -45px;
   }
 }

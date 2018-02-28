@@ -8,13 +8,22 @@ footer.footerCont {
     ul {
         list-style: none;
         display: block;
-        // background: red;
         width: 80%;
         margin: 0 auto;
         max-width: 600px;
         margin: 20px auto 0;
         text-align: center;
         padding: 0;
+        li:nth-child(1) {
+            background: transparent;
+            div p {
+                color: black;
+            }
+            &:hover{
+                background: transparent;
+                cursor: auto;
+            }
+        }
         li {
             .othersTxt {
                 color: white;
@@ -23,6 +32,7 @@ footer.footerCont {
                 background: #060693;
                 cursor: pointer;
             }
+            vertical-align: top;
             height: 60px;
             width: 60px;
             border-radius: 11px;
